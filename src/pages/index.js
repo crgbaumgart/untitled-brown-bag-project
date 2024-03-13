@@ -6,36 +6,36 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 
-const links = [
-    {
-      text: "Tutorial",
-      url: "https://www.gatsbyjs.com/docs/tutorial",
-      description:
-        "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    },
-  },
-]
+// const links = [
+//     {
+//       text: "Tutorial",
+//       url: "https://www.gatsbyjs.com/docs/tutorial",
+//       description:
+//         "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
+//     },
+//   },
+// ]
 
-const samplePageLinks = [
-  {
-    text: "Page 2",
-    url: "page-2",
-    badge: false,
-    description:
-      "A simple example of linking to another page within a Gatsby site",
-  },
-  { text: "TypeScript", url: "using-typescript" },
-  { text: "Server Side Rendering", url: "using-ssr" },
-  { text: "Deferred Static Generation", url: "using-dsg" },
-]
-
-const moreLinks = [
-  { text: "Join us on Discord", url: "https://gatsby.dev/discord" },
-  {
-    text: "Documentation",
-    url: "https://gatsbyjs.com/docs/",
-  }
-]
+// const samplePageLinks = [
+//   {
+//     text: "Page 2",
+//     url: "page-2",
+//     badge: false,
+//     description:
+//       "A simple example of linking to another page within a Gatsby site",
+//   },
+//   { text: "TypeScript", url: "using-typescript" },
+//   { text: "Server Side Rendering", url: "using-ssr" },
+//   { text: "Deferred Static Generation", url: "using-dsg" },
+// ]
+//
+// const moreLinks = [
+//   { text: "Join us on Discord", url: "https://gatsby.dev/discord" },
+//   {
+//     text: "Documentation",
+//     url: "https://gatsbyjs.com/docs/",
+//   }
+// ]
 
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
@@ -43,7 +43,7 @@ const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/brown_bag.jpeg"
+        src="../images/brown_bag.jpg"
         loading="eager"
         width={64}
         quality={95}
@@ -63,7 +63,7 @@ const IndexPage = () => (
         {/*  </React.Fragment>*/}
         {/*))}*/}
         {/*<br />*/}
-        Edit <code>src/pages/index.js</code> to update this page.
+        {/*Edit <code>src/pages/index.js</code> to update this page.*/}
       </p>
     </div>
     {/*<ul className={styles.list}>*/}
